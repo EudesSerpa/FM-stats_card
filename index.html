@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <main>
+    <article class="card">
+      <picture class="card__image-container">
+        <source media="(min-width: 640px)" srcset="./images/image-header-desktop.jpg">
+        <img class="card__image" src="./images/image-header-mobile.jpg" alt="">
+      </picture>
+
+      <div class="card__content">
+        <header>
+          <h1 class="card__title">Get <span class="text--colored">insights</span> that help your business grow.</h1>
+        </header>
+  
+        <p class="card__text">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+  
+        <footer class="card__footer">
+          <div class="card__stats">
+            <p class="card__stat-title text--lower">10k+</p>
+            <p>companies</p>
+          </div>
+  
+          <div class="card__stats">
+            <p class="card__stat-title">314</p>
+            <p>templates</p>
+          </div>
+  
+          <div class="card__stats">
+            <p class="card__stat-title">12m+</p>
+            <p>queries</p>
+          </div>
+        </footer>
+      </div>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/eudes-serpa/">Eudes Serpa</a>.
+  </footer>
+</body>
+</html>
