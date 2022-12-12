@@ -137,12 +137,13 @@ body {
 
 .card__image-container {
   background-color: var(--accent);
-  filter: sepia(5%) contrast(150%) brightness(55%);
 }
+
 .card__image {
   object-fit: cover;
   height: 100%;
-  opacity: .4;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
 }
 
 .card__content {
