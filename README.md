@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Mockup solution](./screenshots/mockups-solution.jpg)
+![Mockup solution](./screenshots/mockups.png)
 
 ### Links
 
 - Repository URL: [Github](https://github.com/EudesSerpa/FM-stats_card).
-- Live Site URL: [See demo](https://your-live-site-url.com).
+- Live Site URL: [See demo](https://fm-stats-card-sc.netlify.app/).
 
 ## My process
 
